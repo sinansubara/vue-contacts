@@ -113,11 +113,13 @@ export default {
         background: lightgreen;
         border: none;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
     }
     .footer-card button:nth-child(2) {
         background: lightsalmon;
         border: none;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
     }
     .footer-card button:first-child:focus, .footer-card button:first-child:hover {
         background: rgb(75, 255, 75);

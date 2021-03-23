@@ -93,6 +93,7 @@ export default {
     cursor: pointer;
     background: lightgreen;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
   }
   input[type="submit"]:focus,  input[type="submit"]:hover{
     background: rgb(75, 255, 75);
@@ -107,6 +108,7 @@ export default {
     background-color: lightgreen;
     position: absolute;
     right: 8px;
+    transition: 0.3s;
   }
   span :first-child:focus, span :first-child:hover {
     background: rgb(75, 255, 75);
@@ -118,6 +120,7 @@ export default {
     background-color: lightsalmon;
     position: absolute;
     right: -19px;
+    transition: 0.3s;
   }
   span :last-child:focus, span :last-child:hover {
     background: rgb(255, 105, 46);
